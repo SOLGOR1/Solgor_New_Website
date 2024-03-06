@@ -30,8 +30,8 @@ import {
   IoLogoYoutube,
   IoMail,
   IoLogoStackoverflow,
-  IoTelegram,
-  IoZealy,
+  IoLogoTelegram,
+  IoLogoZealy,
 } from "react-icons/io5";
 
 const Social = ({ source, className }) => {
