@@ -72,7 +72,7 @@ const Social = ({ source, className }) => {
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
-            <FaLogoFacebook />
+            <FaFacebook />
           </a>
         </li>
       )}
@@ -81,4 +81,3 @@ const Social = ({ source, className }) => {
 };
 
 export default Social;
-
