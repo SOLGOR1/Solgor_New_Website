@@ -33,6 +33,10 @@ import {
   IoLogoTelegram,
   IoLogoZealy,
 } from "react-icons/io5";
+import { 
+  BiLogoDiscord 
+} 
+from "react-icons/bi";
 
 const Social = ({ source, className }) => {
   const {
@@ -116,7 +120,7 @@ const Social = ({ source, className }) => {
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
-            <IoLogoDiscord />
+            <BiLogoDiscord />
           </a>
         </li>
       )}
