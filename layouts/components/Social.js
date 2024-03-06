@@ -3,7 +3,6 @@ import {
   IoLogoFacebook,
   IoLogoInstagram,
   IoLogoTwitter,
-  IoLogoZealy, // Import IoLogoZealy if you're using it
 } from "react-icons/io5"; // Make sure you're using icons from Io5 package
 
 import { BiDiscord } from "react-icons/bi"; // Correctly import BiDiscord from 'bi' package
