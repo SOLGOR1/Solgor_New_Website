@@ -3,8 +3,10 @@ import {
   IoLogoFacebook,
   IoLogoInstagram,
   IoLogoTwitter,
-} from "react-icons/io5";
-import { BiLogoDiscord } from "react-icons/bi";
+  IoLogoZealy, // Import IoLogoZealy if you're using it
+} from "react-icons/io5"; // Make sure you're using icons from Io5 package
+
+import { BiDiscord } from "react-icons/bi"; // Correctly import BiDiscord from 'bi' package
 import { FaTelegram } from "react-icons/fa";
 
 
@@ -62,7 +64,7 @@ const Social = ({ source, className }) => {
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
-            <BiLogoDiscord />
+            <BiDiscord />
           </a>
         </li>
       )}
@@ -83,3 +85,4 @@ const Social = ({ source, className }) => {
 };
 
 export default Social;
+
