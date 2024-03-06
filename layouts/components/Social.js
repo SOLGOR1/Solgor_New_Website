@@ -4,8 +4,9 @@ import {
   IoLogoInstagram,
   IoLogoTwitter,
 } from "react-icons/io5";
-import { BiLogoDiscord, } from "react-icons/bi";
-import { FaTelegram, } from "react-icons/fa";
+import { BiLogoDiscord } from "react-icons/bi";
+import { FaTelegram } from "react-icons/fa";
+
 
 const Social = ({ source, className }) => {
   const {
@@ -14,7 +15,6 @@ const Social = ({ source, className }) => {
     instagram,
     discord,
     telegram,
-    zealy,
   } = source;
   return (
     <ul className={className}>
@@ -75,18 +75,6 @@ const Social = ({ source, className }) => {
             rel="noopener noreferrer nofollow"
           >
             <IoLogoFacebook />
-          </a>
-        </li>
-      )}
-      {zealy && (
-        <li className="inline-block">
-          <a
-            aria-label="zealy"
-            href={"https://zealy.io/c/solgorgor"}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <IoLogoZealy />
           </a>
         </li>
       )}
