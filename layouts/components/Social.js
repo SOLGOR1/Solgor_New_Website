@@ -30,6 +30,8 @@ import {
   IoLogoYoutube,
   IoMail,
   IoLogoStackoverflow,
+  IoTelegram,
+  IoZealy,
 } from "react-icons/io5";
 
 const Social = ({ source, className }) => {
@@ -65,38 +67,16 @@ const Social = ({ source, className }) => {
     address,
     skype,
     website,
+    telegram,
+    zealy,
   } = source;
   return (
     <ul className={className}>
-      {facebook && (
-        <li className="inline-block">
-          <a
-            aria-label="facebook"
-            href={facebook}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <IoLogoFacebook />
-          </a>
-        </li>
-      )}
-      {stackoverflow && (
-        <li className="inline-block">
-          <a
-            aria-label="stackoverflow"
-            href={stackoverflow}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <IoLogoStackoverflow />
-          </a>
-        </li>
-      )}
       {twitter && (
         <li className="inline-block">
           <a
             aria-label="twitter"
-            href={twitter}
+            href={https://twitter.com/solgor_official}
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
@@ -108,7 +88,7 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="instagram"
-            href={instagram}
+            href={https://www.instagram.com/solgorthegorilla}
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
@@ -116,51 +96,15 @@ const Social = ({ source, className }) => {
           </a>
         </li>
       )}
-      {youtube && (
+      {telegram && (
         <li className="inline-block">
           <a
-            aria-label="youtube"
-            href={youtube}
+            aria-label="telegram"
+            href={https://t.me/+AUYRKvHXSCEwNjdi}
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
-            <IoLogoYoutube />
-          </a>
-        </li>
-      )}
-      {linkedin && (
-        <li className="inline-block">
-          <a
-            aria-label="linkedin"
-            href={linkedin}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <IoLogoLinkedin />
-          </a>
-        </li>
-      )}
-      {github && (
-        <li className="inline-block">
-          <a
-            aria-label="github"
-            href={github}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <IoLogoGithub />
-          </a>
-        </li>
-      )}
-      {gitlab && (
-        <li className="inline-block">
-          <a
-            aria-label="gitlab"
-            href={gitlab}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <IoLogoGitlab />
+            <IoLogoTelegram />
           </a>
         </li>
       )}
@@ -168,7 +112,7 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="discord"
-            href={discord}
+            href={https://discord.gg/CJjnDahRXK}
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
@@ -176,257 +120,27 @@ const Social = ({ source, className }) => {
           </a>
         </li>
       )}
-      {slack && (
+      {facebook && (
         <li className="inline-block">
           <a
-            aria-label="slack"
-            href={slack}
+            aria-label="facebook"
+            href={https://www.facebook.com/solgor.official/}
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
-            <IoLogoSlack />
+            <IoLogoFacebook />
           </a>
         </li>
       )}
-      {medium && (
+      {zealy && (
         <li className="inline-block">
           <a
-            aria-label="medium"
-            href={medium}
+            aria-label="zealy"
+            href={https://zealy.io/c/solgorgor}
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
-            <IoLogoMedium />
-          </a>
-        </li>
-      )}
-      {codepen && (
-        <li className="inline-block">
-          <a
-            aria-label="codepen"
-            href={codepen}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <IoLogoCodepen />
-          </a>
-        </li>
-      )}
-      {bitbucket && (
-        <li className="inline-block">
-          <a
-            aria-label="bitbucket"
-            href={bitbucket}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <IoLogoBitbucket />
-          </a>
-        </li>
-      )}
-      {dribbble && (
-        <li className="inline-block">
-          <a
-            aria-label="dribbble"
-            href={dribbble}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <IoLogoDribbble />
-          </a>
-        </li>
-      )}
-      {behance && (
-        <li className="inline-block">
-          <a
-            aria-label="behance"
-            href={behance}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <IoLogoBehance />
-          </a>
-        </li>
-      )}
-      {pinterest && (
-        <li className="inline-block">
-          <a
-            aria-label="pinterest"
-            href={pinterest}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <IoLogoPinterest />
-          </a>
-        </li>
-      )}
-      {soundcloud && (
-        <li className="inline-block">
-          <a
-            aria-label="soundcloud"
-            href={soundcloud}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <IoLogoSoundcloud />
-          </a>
-        </li>
-      )}
-      {tumblr && (
-        <li className="inline-block">
-          <a
-            aria-label="tumblr"
-            href={tumblr}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <IoLogoTumblr />
-          </a>
-        </li>
-      )}
-      {reddit && (
-        <li className="inline-block">
-          <a
-            aria-label="reddit"
-            href={reddit}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <IoLogoReddit />
-          </a>
-        </li>
-      )}
-      {vk && (
-        <li className="inline-block">
-          <a
-            aria-label="vk"
-            href={vk}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <IoLogoVk />
-          </a>
-        </li>
-      )}
-      {whatsapp && (
-        <li className="inline-block">
-          <a
-            aria-label="whatsapp"
-            href={whatsapp}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <IoLogoWhatsapp />
-          </a>
-        </li>
-      )}
-      {snapchat && (
-        <li className="inline-block">
-          <a
-            aria-label="snapchat"
-            href={snapchat}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <IoLogoSnapchat />
-          </a>
-        </li>
-      )}
-      {vimeo && (
-        <li className="inline-block">
-          <a
-            aria-label="vimeo"
-            href={vimeo}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <IoLogoVimeo />
-          </a>
-        </li>
-      )}
-      {tiktok && (
-        <li className="inline-block">
-          <a
-            aria-label="tiktok"
-            href={tiktok}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <IoLogoTiktok />
-          </a>
-        </li>
-      )}
-      {foursquare && (
-        <li className="inline-block">
-          <a
-            aria-label="foursquare"
-            href={foursquare}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <IoLogoFoursquare />
-          </a>
-        </li>
-      )}
-      {skype && (
-        <li className="inline-block">
-          <a
-            aria-label="skype"
-            href={skype}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <IoLogoSkype />
-          </a>
-        </li>
-      )}
-      {website && (
-        <li className="inline-block">
-          <a
-            aria-label="website"
-            href={website}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <IoGlobeOutline />
-          </a>
-        </li>
-      )}
-      {rss && (
-        <li className="inline-block">
-          <a
-            aria-label="rss feed"
-            href={rss}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <IoLogoRss />
-          </a>
-        </li>
-      )}
-      {email && (
-        <li className="inline-block">
-          <a aria-label="email" href={`mailto:${email}`}>
-            <IoMail />
-          </a>
-        </li>
-      )}
-      {phone && (
-        <li className="inline-block">
-          <a aria-label="telephone" href={`tel:${phone}`}>
-            <IoCall />
-          </a>
-        </li>
-      )}
-      {address && (
-        <li className="inline-block">
-          <a
-            aria-label="location"
-            href={address}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <IoLocation />
+            <IoLogoZealy />
           </a>
         </li>
       )}
