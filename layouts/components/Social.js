@@ -1,13 +1,10 @@
 import {
-  IoLogoDiscord,
-  IoLogoFacebook,
-  IoLogoInstagram,
-  IoLogoTwitter,
-} from "react-icons/io5"; // Make sure you're using icons from Io5 package
-
-import { BiDiscord } from "react-icons/bi"; // Correctly import BiDiscord from 'bi' package
-import { FaTelegram } from "react-icons/fa";
-
+  FaFacebook,
+  FaTwitter,
+  FaInstagram,
+  FaDiscord,
+  FaTelegram,  
+} from "react-icons/fa";
 
 const Social = ({ source, className }) => {
   const {
@@ -27,7 +24,7 @@ const Social = ({ source, className }) => {
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
-            <IoLogoTwitter />
+            <FaTwitter />
           </a>
         </li>
       )}
@@ -39,7 +36,7 @@ const Social = ({ source, className }) => {
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
-            <IoLogoInstagram />
+            <FaInstagram />
           </a>
         </li>
       )}
@@ -63,7 +60,7 @@ const Social = ({ source, className }) => {
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
-            <BiDiscord />
+            <FaDiscord />
           </a>
         </li>
       )}
@@ -75,7 +72,7 @@ const Social = ({ source, className }) => {
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
-            <IoLogoFacebook />
+            <FaLogoFacebook />
           </a>
         </li>
       )}
