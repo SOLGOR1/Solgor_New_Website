@@ -7,6 +7,8 @@ import {
 } from "react-icons/fa";
 
 const Social = ({ source, className }) => {
+  console.log(source);
+  
   const {
     facebook,
     twitter,
