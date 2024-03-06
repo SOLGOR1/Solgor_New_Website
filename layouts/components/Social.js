@@ -76,7 +76,7 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="twitter"
-            href={https://twitter.com/solgor_official}
+            href={"https://twitter.com/solgor_official"}
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
@@ -88,7 +88,7 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="instagram"
-            href={https://www.instagram.com/solgorthegorilla}
+            href={"https://www.instagram.com/solgorthegorilla"}
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
@@ -100,7 +100,7 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="telegram"
-            href={https://t.me/+AUYRKvHXSCEwNjdi}
+            href={"https://t.me/+AUYRKvHXSCEwNjdi"}
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
@@ -112,7 +112,7 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="discord"
-            href={https://discord.gg/CJjnDahRXK}
+            href={"https://discord.gg/CJjnDahRXK"}
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
@@ -124,7 +124,7 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="facebook"
-            href={https://www.facebook.com/solgor.official/}
+            href={"https://www.facebook.com/solgor.official/"}
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
@@ -136,7 +136,7 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="zealy"
-            href={https://zealy.io/c/solgorgor}
+            href={"https://zealy.io/c/solgorgor"}
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
