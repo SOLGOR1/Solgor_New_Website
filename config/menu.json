@@ -5,24 +5,32 @@
       "url": "/"
     },
     {
-      "name": "About",
-      "url": "/about"
+      "name": "Whitepaper",
+      "url": "/public/Solgor_GOR_Whitepaper.pdf"
     },
     {
-      "name": "Elements",
+      "name": "Roadmap",
       "url": "/elements"
     },
     {
-      "name": "Contact",
-      "url": "/contact"
+      "name": "Buy",
+      "url": "https://jup.ag/swap/SOL-GOR_BG745juV1EHRUk2SxsuZ2JmCzDgeBVcUXioLSTDvhSpF"
     },
     {
-      "name": "Pages",
+      "name": "More",
       "url": "",
       "hasChildren": true,
       "children": [
         {
-          "name": "Categories",
+          "name": "Gorillameter",
+          "url": "/categories"
+        }
+        {
+          "name": "Usefull Links",
+          "url": "/categories"
+        }
+        {
+          "name": "Partners",
           "url": "/categories"
         }
       ]
@@ -34,16 +42,16 @@
       "url": "/"
     },
     {
-      "name": "About",
-      "url": "/about"
+      "name": "Whitepaper",
+      "url": "/public/Solgor_GOR_Whitepaper.pdf"
     },
     {
-      "name": "Contact",
+      "name": "Roadmap",
       "url": "/contact"
     },
     {
-      "name": "Privacy Policy",
-      "url": "#"
+      "name": "Buy Solgor GOR",
+      "url": "https://jup.ag/swap/SOL-GOR_BG745juV1EHRUk2SxsuZ2JmCzDgeBVcUXioLSTDvhSpF"
     }
   ]
 }
