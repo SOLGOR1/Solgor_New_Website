@@ -10,6 +10,8 @@ import { sortByDate } from "@lib/utils/sortFunctions";
 import { markdownify } from "@lib/utils/textConverter";
 import Link from "next/link";
 import { FaRegCalendar } from "react-icons/fa";
+import ExternalLink from '../components/ExternalLink'; // Import ExternalLink component
+import menuData from '../menu.json';
 
 const { blog_folder, pagination } = config.settings;
 
@@ -71,7 +73,23 @@ const Home = ({
       </section>
 
       {/* Home main */}
-     
+      {/* Render your other content here */}
+
+      {/* Render menu items */}
+      <div>
+        <ul>
+          {menuData.main.map((item, index) => (
+            <li key={index}>
+              {/* Use ExternalLink for external links */}
+              {item.name === 'Buy' ? (
+                <ExternalLink href={item.url}>{item.name}</ExternalLink>
+              ) : (
+                <a href={item.url}>{item.name}</a>
+              )}
+            </li>
+          ))}
+        </ul>
+      </div>
     </Base>
   );
 };
