@@ -71,7 +71,7 @@ const Home = ({
       </section>
 
       {/* Home main */}
-     
+     <rssapp-wall id="qciBdDUZ0w97Mwjh"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
     </Base>
   );
 };
