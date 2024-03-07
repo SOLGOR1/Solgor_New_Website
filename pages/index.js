@@ -69,6 +69,9 @@ const Home = ({
           </div>
         </div>
       </section>
+
+      {/* Home main */}
+     
     </Base>
   );
 };
