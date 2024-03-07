@@ -1,14 +1,14 @@
 ---
 banner:
-  title: Welcome **!**
-  title_small: "to John Bravo's Blog"
-  content: Are Developer and recently started your own business Already made website to ensure presence wants to develop.
+  title: Welcome 
+  title_small: "to the Jungle" **!** **!** **!**
+  content: Introducing Solgor GOR - the wildest memecoin swinging through the Solana Jungle!
   image_enable: true
   image: /images/banner-author.png
   button:
     enable: true
-    label: Know About Me
-    link: /about
+    label: BUY NOW!
+    link: https://jup.ag/swap/SOL-GOR_BG745juV1EHRUk2SxsuZ2JmCzDgeBVcUXioLSTDvhSpF
     rel: ""
 
 featured_posts:
