@@ -32,8 +32,8 @@
   },
   "widgets": {
     "about": {
-      "enable": false,
-      "content": "Lorem ipsum dolor sit amet, conse tfctetur adipiscing elit. Vel in in donec iaculis tempasus odio nunc laoreet . Libero ullam rgscorper."
+      "enable": true,
+      "content": "Join our vibrant community on social media and stay updated with the latest news, announcements, and discussions."
     },
     "featured_posts": {
       "enable": false,
