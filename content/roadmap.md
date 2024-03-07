@@ -4,7 +4,7 @@ draft: false
 ---
 ---
 
-### Roadmap
+### 2024
 
 <Accordion title="New Liquidity Pools">
 
@@ -40,6 +40,8 @@ turning our meme coin into a force for positive change in the real world.
 - Serve as rallying cries, uniting apes in a shared vision of prosperity and compassion.
 
 </Accordion>
+
+### 2025
 
 <Accordion title="Multichain Approach">
 
