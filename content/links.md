@@ -4,9 +4,8 @@ draft: false
 ---
 
 ### Wallets
-
-| ![Wallet](/images/post/awesome.svg) <!-- <img src="/images/post/awesome.svg" alt="Wallet" style="width:100px;height:100px;"> --> | [![Phantom Wallet](/images/post/PHANTOM.png)](https://phantom.app) | [![Phantom Wallet](/images/post/PHANTOM.png)](https://phantom.app) | [![Solflare Wallet](/images/post/SOLFLARE.png)](https://solflare.com) |
-|---|---|---|
+| [![Phantom Wallet](/images/post/PHANTOM.png)](https://phantom.app) | [![Solflare Wallet](/images/post/SOLFLARE.png)](https://solflare.com) |
+|---|---|
 
 ### Trade GOR
 
