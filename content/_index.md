@@ -1,3 +1,4 @@
+---
 banner:
   title: Welcome 
   title_small: "to the Jungle"
@@ -22,3 +23,4 @@ promotion:
 recent_posts:
   title: Recent Posts
   enable: false
+---
