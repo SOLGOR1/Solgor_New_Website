@@ -23,11 +23,11 @@
       "children": [
         {
           "name": "Gorillameter",
-          "url": "/categories"
+          "url": "/elements"
         },
         {
-          "name": "Useful Links",
-          "url": "/elements"
+          "name": "Links",
+          "url": "/links"
         },
         {
           "name": "Partners",
@@ -47,7 +47,7 @@
     },
     {
       "name": "Roadmap",
-      "url": "/contact"
+      "url": "/roadmap"
     },
     {
       "name": "Buy Solgor GOR",
