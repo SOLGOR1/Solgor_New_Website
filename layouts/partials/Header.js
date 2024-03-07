@@ -84,6 +84,7 @@ const Header = () => {
                           >
                             <Link
                               href={child.url}
+                              target={child.target?child.target:"_self"}
                               className={`nav-dropdown-link block ${
                                 router.asPath === child.url && "active"
                               }`}
@@ -98,6 +99,7 @@ const Header = () => {
                     <li className="nav-item">
                       <Link
                         href={menu.url}
+                        target={menu.target?menu.target:"_self"}
                         className={`nav-link block ${
                           router.asPath === menu.url && "active"
                         }`}
