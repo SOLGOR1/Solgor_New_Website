@@ -2,17 +2,21 @@
 title: "Links"
 draft: false
 ---
----
+
 ### Wallets
-[![Phantom Wallet](/images/post/PHANTOM.png)](https://phantom.app) [![Solflare Wallet](/images/post/SOLFLARE.png)](https:/solflare.com)
----
----
+<div style="display:flex;">
+    [![Phantom Wallet](/images/post/PHANTOM.png)](https://phantom.app)
+    [![Solflare Wallet](/images/post/SOLFLARE.png)](https://solflare.com)
+</div>
+
 ### Trade GOR
-[![Coingecko Terminal](/images/post/geckoterminal.png)](https://www.geckoterminal.com/solana/pools/3HfTsWPbPGYRse7u4cP4LNMTTJvEh3CKUtpRePDjXkKD?utm_source=coingecko&utm_medium=referral&utm_campaign=searchresults)
-[![Coingecko Terminal](/images/post/geckoterminal.png)](https://www.geckoterminal.com/solana/pools/3HfTsWPbPGYRse7u4cP4LNMTTJvEh3CKUtpRePDjXkKD?utm_source=coingecko&utm_medium=referral&utm_campaign=searchresults)
----
----
+<div style="display:flex;">
+    [![Coingecko Terminal](/images/post/geckoterminal.png)](https://www.geckoterminal.com/solana/pools/3HfTsWPbPGYRse7u4cP4LNMTTJvEh3CKUtpRePDjXkKD?utm_source=coingecko&utm_medium=referral&utm_campaign=searchresults)
+    [![Coingecko Terminal](/images/post/geckoterminal.png)](https://www.geckoterminal.com/solana/pools/3HfTsWPbPGYRse7u4cP4LNMTTJvEh3CKUtpRePDjXkKD?utm_source=coingecko&utm_medium=referral&utm_campaign=searchresults)
+</div>
+
 ### Charts
-[![Coingecko Terminal](/images/post/geckoterminal.png)](https://www.geckoterminal.com/solana/pools/3HfTsWPbPGYRse7u4cP4LNMTTJvEh3CKUtpRePDjXkKD?utm_source=coingecko&utm_medium=referral&utm_campaign=searchresults)
-[![Coingecko Terminal](/images/post/geckoterminal.png)](https://www.geckoterminal.com/solana/pools/3HfTsWPbPGYRse7u4cP4LNMTTJvEh3CKUtpRePDjXkKD?utm_source=coingecko&utm_medium=referral&utm_campaign=searchresults)
----
+<div style="display:flex;">
+    [![Coingecko Terminal](/images/post/geckoterminal.png)](https://www.geckoterminal.com/solana/pools/3HfTsWPbPGYRse7u4cP4LNMTTJvEh3CKUtpRePDjXkKD?utm_source=coingecko&utm_medium=referral&utm_campaign=searchresults)
+    [![Coingecko Terminal](/images/post/geckoterminal.png)](https://www.geckoterminal.com/solana/pools/3HfTsWPbPGYRse7u4cP4LNMTTJvEh3CKUtpRePDjXkKD?utm_source=coingecko&utm_medium=referral&utm_campaign=searchresults)
+</div>
