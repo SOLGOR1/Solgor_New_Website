@@ -41,6 +41,16 @@ turning our meme coin into a force for positive change in the real world.
 
 </Accordion>
 
+<Accordion title="Multichain Approach">
+
+- Research and analyze potential blockchain networks for Solgor expansion beyond Solana.
+- Develop a strategic plan for implementing the multichain approach.
+- Begin initial development work on integrating Solgor with selected blockchain networks.
+- Conduct thorough testing and optimization to ensure compatibility and functionality.
+- Prepare for the official rollout of Solgor on multiple blockchain networks.
+
+</Accordion>
+
 <Accordion title="More Soon">
 
 - SOON.
