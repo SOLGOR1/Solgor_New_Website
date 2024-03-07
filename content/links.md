@@ -5,8 +5,8 @@ draft: false
 
 ### Wallets
 
-| [![Phantom Wallet](/images/post/PHANTOM.png)](https://phantom.app) | [![Solflare Wallet](/images/post/SOLFLARE.png)](https://solflare.com) |
-|---|---|
+| [![Awesome](/images/post/awesome.svg)] | [![Phantom Wallet](/images/post/PHANTOM.png)](https://phantom.app) | [![Solflare Wallet](/images/post/SOLFLARE.png)](https://solflare.com) |
+|---|---|---|
 
 ### Trade GOR
 
