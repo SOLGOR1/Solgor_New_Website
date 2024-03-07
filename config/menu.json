@@ -6,7 +6,7 @@
     },
     {
       "name": "Whitepaper",
-      "url": "/Solgor_GOR_Whitepaper.pdf"
+      "url": "/Solgor_GOR_Whitepaper.pdf",
       "target": "_blank"
     },
     {
@@ -15,7 +15,7 @@
     },
     {
       "name": "Buy",
-      "url": "https://jup.ag/swap/SOL-GOR_BG745juV1EHRUk2SxsuZ2JmCzDgeBVcUXioLSTDvhSpF"
+      "url": "https://jup.ag/swap/SOL-GOR_BG745juV1EHRUk2SxsuZ2JmCzDgeBVcUXioLSTDvhSpF",
       "target": "_blank"
     },
     {
@@ -45,7 +45,7 @@
     },
     {
       "name": "Whitepaper",
-      "url": "/public/Solgor_GOR_Whitepaper.pdf"
+      "url": "/public/Solgor_GOR_Whitepaper.pdf",
       "target": "_blank"
     },
     {
@@ -54,7 +54,7 @@
     },
     {
       "name": "Buy Solgor GOR",
-      "url": "https://jup.ag/swap/SOL-GOR_BG745juV1EHRUk2SxsuZ2JmCzDgeBVcUXioLSTDvhSpF"
+      "url": "https://jup.ag/swap/SOL-GOR_BG745juV1EHRUk2SxsuZ2JmCzDgeBVcUXioLSTDvhSpF",
       "target": "_blank"
     }
   ]
