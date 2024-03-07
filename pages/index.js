@@ -10,8 +10,6 @@ import { sortByDate } from "@lib/utils/sortFunctions";
 import { markdownify } from "@lib/utils/textConverter";
 import Link from "next/link";
 import { FaRegCalendar } from "react-icons/fa";
-import ExternalLink from "@layouts/components/ExternalLink"; // Import ExternalLink component
-import menuData from "@config/menu.json";
 
 const { blog_folder, pagination } = config.settings;
 
@@ -73,7 +71,10 @@ const Home = ({
       </section>
 
       {/* Home main */}
-      {/* Render your other content here */}
+     
+    </Base>
+  );
+};
 
 export default Home;
 
