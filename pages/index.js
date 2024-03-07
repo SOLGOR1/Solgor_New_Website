@@ -69,14 +69,11 @@ const Home = ({
           </div>
         </div>
       </section>
-
-      {/* Home main */}
-     
     </Base>
   );
 };
 
-export default Home;
+
 
 // For homepage data
 export const getStaticProps = async () => {
