@@ -20,7 +20,8 @@ draft: false
 - Once certain goals are met, funds will be released to support gorilla conservation efforts through partnerships.
 - As the market cap of Solgor increases, the number of gorillas we can rescue and support also increases.
 - Users can track the progress of our gorilla-saving efforts through the Gorillameter on our website.
-- In essence, the more successful Solgor becomes, the more impact we can have on gorilla conservation, turning our meme coin into a force for positive change in the real world.
+- In essence, the more successful Solgor becomes, the more impact we can have on gorilla conservation, 
+turning our meme coin into a force for positive change in the real world.
 
 </Accordion>
 
