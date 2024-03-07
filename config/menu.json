@@ -29,7 +29,8 @@
         },
         {
           "name": "Links",
-          "url": "/links"
+          "url": "/links",
+          "target": "_blank"
         },
         {
           "name": "Partners",
