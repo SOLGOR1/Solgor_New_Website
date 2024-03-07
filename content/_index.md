@@ -1,7 +1,7 @@
 ---
 banner:
   title: Welcome 
-  title_small: "to the Jungle"
+  title_small: "to the Jungle" **!** **!** **!**
   content: Introducing Solgor GOR - the wildest memecoin swinging through the Solana Jungle!
   image_enable: true
   image: /images/banner-author.png
