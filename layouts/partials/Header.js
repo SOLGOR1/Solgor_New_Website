@@ -10,12 +10,17 @@ import React, { useEffect, useState } from "react";
 import { IoSearch } from "react-icons/io5";
 
 const Header = () => {
+  // distructuring the main menu from menu object
   const { main } = menu;
 
+  // states declaration
   const [searchModal, setSearchModal] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
+
+  // Router
   const router = useRouter();
 
+  //stop scrolling when nav is open
   useEffect(() => {
     if (showMenu) {
       document.body.classList.add("menu-open");
@@ -77,20 +82,14 @@ const Header = () => {
                             className="nav-dropdown-item"
                             key={`children-${i}`}
                           >
-                            <a
+                            <Link
                               href={child.url}
-                              target={child.target ? child.target : "_self"}
                               className={`nav-dropdown-link block ${
                                 router.asPath === child.url && "active"
                               }`}
-                              rel={
-                                child.target === "_blank"
-                                  ? "noopener noreferrer"
-                                  : ""
-                              }
                             >
                               {child.name}
-                            </a>
+                            </Link>
                           </li>
                         ))}
                       </ul>
@@ -110,9 +109,11 @@ const Header = () => {
                 </React.Fragment>
               ))}
             </ul>
+            {/* header social */}
             <Social source={socical} className="socials" />
           </div>
           <ThemeSwitcher />
+          {/* Header search */}
           <div
             className="search-icon"
             onClick={() => {
