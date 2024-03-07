@@ -17,9 +17,7 @@ const Home = ({
   banner,
   posts,
   featured_posts,
-  recent_posts,
   categories,
-  promotion,
 }) => {
   // define state
   const sortPostByDate = sortByDate(posts);
@@ -131,40 +129,6 @@ const Home = ({
                 </div>
               )}
 
-              {/* Promotion */}
-              {promotion.enable && (
-                <Link href={promotion.link} className="section block pt-0">
-                  <ImageFallback
-                    className="h-full w-full"
-                    height="115"
-                    width="800"
-                    src={promotion.image}
-                    alt="promotion"
-                  />
-                </Link>
-              )}
-
-              {/* Recent Posts */}
-              {recent_posts.enable && (
-                <div className="section pt-0">
-                  {markdownify(recent_posts.title, "h2", "section-title")}
-                  <div className="rounded border border-border px-6 pt-6 dark:border-darkmode-border">
-                    <div className="row">
-                      {sortPostByDate.slice(0, showPosts).map((post) => (
-                        <div className="mb-8 md:col-6" key={post.slug}>
-                          <Post post={post} />
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              )}
-
-              <Pagination
-                totalPages={Math.ceil(posts.length / showPosts)}
-                currentPage={1}
-              />
-            </div>
             {/* sidebar */}
             <Sidebar
               className={"lg:mt-[9.5rem]"}
@@ -203,8 +167,6 @@ export const getStaticProps = async () => {
       banner: banner,
       posts: posts,
       featured_posts,
-      recent_posts,
-      promotion,
       categories: categoriesWithPostsCount,
     },
   };
