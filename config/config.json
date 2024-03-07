@@ -32,7 +32,7 @@
   },
   "widgets": {
     "about": {
-      "enable": true,
+      "enable": false,
       "content": "Join our vibrant community on social media and stay updated with the latest news, announcements, and discussions."
     },
     "featured_posts": {
