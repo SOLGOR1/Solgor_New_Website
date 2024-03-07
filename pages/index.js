@@ -73,7 +73,7 @@ const Home = ({
   );
 };
 
-
+export default Home;
 
 // For homepage data
 export const getStaticProps = async () => {
