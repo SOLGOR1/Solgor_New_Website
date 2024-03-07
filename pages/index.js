@@ -74,21 +74,6 @@ const Home = ({
 
       {/* Home main */}
       {/* Render your other content here */}
-{/* Render menu items */}
-<div>
-  <ul>
-    {menuData.main.map((item, index) => (
-      <li key={index}>
-        {/* Use ExternalLink for external links */}
-        {item.name === 'Buy' ? (
-          <a href={item.url} target="_blank" rel="noopener noreferrer">{item.name}</a>
-        ) : (
-          <a href={item.url}>{item.name}</a>
-        )}
-      </li>
-    ))}
-  </ul>
-</div>
 
 export default Home;
 
