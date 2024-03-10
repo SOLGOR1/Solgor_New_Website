@@ -14,5 +14,5 @@ draft: false
 
 ### Charts
 
-| [![Coingecko Terminal](/images/post/geckoterminal1.png)](https://www.geckoterminal.com/solana/pools/3HfTsWPbPGYRse7u4cP4LNMTTJvEh3CKUtpRePDjXkKD) | [![Dexscreener](https://dexscreener.com/solana/3hftswpbpgyrse7u4cp4lnmttjveh3ckutprepdjxkkd) | [![Birdeye](/images/post/birdeye1.png)](https://birdeye.so/token/BG745juV1EHRUk2SxsuZ2JmCzDgeBVcUXioLSTDvhSpF?chain=solana)
+| [![Coingecko Terminal](/images/post/geckoterminal1.png)](https://www.geckoterminal.com/solana/pools/3HfTsWPbPGYRse7u4cP4LNMTTJvEh3CKUtpRePDjXkKD) | [![Dexscreener](/images/post/dexscreener1.png)](https://dexscreener.com/solana/3hftswpbpgyrse7u4cp4lnmttjveh3ckutprepdjxkkd) | [![Birdeye](/images/post/birdeye1.png)](https://birdeye.so/token/BG745juV1EHRUk2SxsuZ2JmCzDgeBVcUXioLSTDvhSpF?chain=solana)
 |---|---|---|
