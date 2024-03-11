@@ -1,8 +1,12 @@
 import config from "@config/config.json";
 import Base from "@layouts/Baseof";
 import ImageFallback from "@layouts/components/ImageFallback";
-import Image from "next/image";
+import { getListPage, getSinglePage } from "@lib/contentParser";
+import { getTaxonomy } from "@lib/taxonomyParser";
+import { markdownify } from "@lib/utils/textConverter";
+import Link from "next/link";
 import { useState, useEffect } from 'react';
+import Image from "next/image";
 
 const { blog_folder, pagination } = config.settings;
 
@@ -11,10 +15,14 @@ const Home = ({
   posts,
   featured_posts,
   categories,
-  imageLinks
 }) => {
   // Define state
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  // Define state
+  const sortPostByDate = sortByDate(posts);
+  const featuredPosts = sortPostByDate.filter((post) => post.frontmatter.featured);
+  const showPosts = pagination;
 
   // Function to rotate images
   useEffect(() => {
@@ -23,11 +31,6 @@ const Home = ({
     }, 5000); // Change the duration (in milliseconds) for slower rotation
     return () => clearInterval(interval);
   }, []);
-
-  // Define state
-  const sortPostByDate = sortByDate(posts);
-  const featuredPosts = sortPostByDate.filter((post) => post.frontmatter.featured);
-  const showPosts = pagination;
 
   return (
     <Base>
@@ -101,6 +104,7 @@ const Home = ({
       </section>
 
       {/* Home main */}
+     
     </Base>
   );
 };
@@ -115,6 +119,16 @@ export const getStaticProps = async () => {
   const posts = getSinglePage(`content/${blog_folder}`);
   const categories = getTaxonomy(`content/${blog_folder}`, "categories");
 
+  const categoriesWithPostsCount = categories.map((category) => {
+    const filteredPosts = posts.filter((post) =>
+      post.frontmatter.categories.includes(category)
+    );
+    return {
+      name: category,
+      posts: filteredPosts.length,
+    };
+  });
+
   const imageLinks = [
     {
       image: "/images/tradejup.png",
@@ -127,16 +141,6 @@ export const getStaticProps = async () => {
       alt: "Orca"
     }
   ];
-
-  const categoriesWithPostsCount = categories.map((category) => {
-    const filteredPosts = posts.filter((post) =>
-      post.frontmatter.categories.includes(category)
-    );
-    return {
-      name: category,
-      posts: filteredPosts.length,
-    };
-  });
 
   return {
     props: {
