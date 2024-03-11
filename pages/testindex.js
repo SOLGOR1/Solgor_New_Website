@@ -7,6 +7,7 @@ import { markdownify } from "@lib/utils/textConverter";
 import Link from "next/link";
 import { useState, useEffect } from 'react';
 import Image from "next/image";
+import { sortByDate } from "@lib/utils/sortFunctions";
 
 const { blog_folder, pagination } = config.settings;
 
