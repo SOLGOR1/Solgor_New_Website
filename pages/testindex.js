@@ -10,7 +10,8 @@ import { sortByDate } from "@lib/utils/sortFunctions";
 import { markdownify } from "@lib/utils/textConverter";
 import Link from "next/link";
 import { FaRegCalendar } from "react-icons/fa";
-import Image from "next/image"
+import Image from "next/image";
+import { useState, useEffect } from 'react';
 
 const { blog_folder, pagination } = config.settings;
 
@@ -22,6 +23,17 @@ const Home = ({
   imageLinks
 }) => {
   // Define state
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  // Function to rotate images
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % imageLinks.length);
+    }, 5000); // Change the duration (in milliseconds) for slower rotation
+    return () => clearInterval(interval);
+  }, []);
+
+  // Define state
   const sortPostByDate = sortByDate(posts);
   const featuredPosts = sortPostByDate.filter((post) => post.frontmatter.featured);
   const showPosts = pagination;
@@ -30,55 +42,19 @@ const Home = ({
     <Base>
       {/* Banner */}
       <section className="section banner relative pb-0">
-        <ImageFallback
-          className="absolute bottom-0 left-0 z-[-1] w-full"
-          src={"/images/banner-bg-shape.svg"}
-          width={1905}
-          height={295}
-          alt="banner-shape"
-          priority
-        />
-        <div className="container">
-          <div className="row flex-wrap-reverse items-center justify-center lg:flex-row">
-            <div className={banner.image_enable ? "mt-12 text-center lg:mt-0 lg:text-left lg:col-6" : "mt-12 text-center lg:mt-0 lg:text-left lg:col-12"}>
-              <div className="banner-title">
-                {markdownify(banner.title, "h1")}
-                {markdownify(banner.title_small, "span")}
-              </div>
-              {markdownify(banner.content, "p", "mt-4")}
-              {banner.button.enable && (
-                <Link
-                  className="btn btn-primary mt-6"
-                  href={banner.button.link}
-                  rel={banner.button.rel}
-                >
-                  {banner.button.label}
-                </Link>
-              )}
-            </div>
-            {banner.image_enable && (
-              <div className="col-9 lg:col-6">
-                <ImageFallback
-                  className="mx-auto object-contain"
-                  src={banner.image}
-                  width={548}
-                  height={443}
-                  priority={true}
-                  alt="Banner Image"
-                />
-              </div>
-            )}
-          </div>
-        </div>
+        {/* Your banner section code here */}
       </section>
 
       {/* Image links section */}
       <section className="section image-links">
         <div className="container">
-          <div className="row justify-content-center"> {/* Center the row */}
+          <div className="row justify-content-center">
             {imageLinks.map((link, index) => (
-              <div className="col-md-5 mb-4" key={index}> {/* Adjust column width and add margin bottom */}
-                <div className="d-flex justify-content-center"> {/* Center the image within the column */}
+              <div
+                className={`col-md-5 mb-4 ${index === currentIndex ? 'show' : 'hide'}`} // Apply classes based on current index
+                key={index}
+              >
+                <div className="d-flex justify-content-center">
                   <a href={link.url} className="image-link">
                     <Image
                       src={link.image}
@@ -95,7 +71,6 @@ const Home = ({
       </section>
 
       {/* Home main */}
-     
     </Base>
   );
 };
@@ -110,18 +85,18 @@ export const getStaticProps = async () => {
   const posts = getSinglePage(`content/${blog_folder}`);
   const categories = getTaxonomy(`content/${blog_folder}`, "categories");
 
-const imageLinks = [
-  {
-    image: "/images/tradejup.png",
-    url: "https://jup.ag/swap/SOL-GOR_BG745juV1EHRUk2SxsuZ2JmCzDgeBVcUXioLSTDvhSpF",
-    alt: "Jupiter"
-  },
-  {
-    image: "/images/liquidity.png",
-    url: "https://v1.orca.so/liquidity/browse?tokenMint=BG745juV1EHRUk2SxsuZ2JmCzDgeBVcUXioLSTDvhSpF",
-    alt: "Orca"
-  }
-];
+  const imageLinks = [
+    {
+      image: "/images/tradejup.png",
+      url: "https://jup.ag/swap/SOL-GOR_BG745juV1EHRUk2SxsuZ2JmCzDgeBVcUXioLSTDvhSpF",
+      alt: "Jupiter"
+    },
+    {
+      image: "/images/liquidity.png",
+      url: "https://v1.orca.so/liquidity/browse?tokenMint=BG745juV1EHRUk2SxsuZ2JmCzDgeBVcUXioLSTDvhSpF",
+      alt: "Orca"
+    }
+  ];
 
   const categoriesWithPostsCount = categories.map((category) => {
     const filteredPosts = posts.filter((post) =>
