@@ -113,7 +113,7 @@ export const getStaticProps = async () => {
 const imageLinks = [
   {
     image: "/images/tradejup.png",
-    url: "/https://jup.ag/swap/SOL-GOR_BG745juV1EHRUk2SxsuZ2JmCzDgeBVcUXioLSTDvhSpF",
+    url: "https://jup.ag/swap/SOL-GOR_BG745juV1EHRUk2SxsuZ2JmCzDgeBVcUXioLSTDvhSpF",
     alt: "Jupiter"
   },
   {
