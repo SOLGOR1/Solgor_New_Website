@@ -75,17 +75,19 @@ const Home = ({
       {/* Image links section */}
       <section className="section image-links">
         <div className="container">
-          <div className="row" style={{ display: 'flex', justifyContent: 'space-between' }}>
+          <div className="row justify-content-center"> {/* Center the row */}
             {imageLinks.map((link, index) => (
-              <div className="col-md-6" key={index}> {/* Make sure each column occupies half of the container's width on medium screens */}
-                <a href={link.url} className="image-link">
-                  <Image
-                    src={link.image}
-                    alt={link.alt}
-                    width={800}
-                    height={200}
-                  />
-                </a>
+              <div className="col-md-5 mb-4" key={index}> {/* Adjust column width and add margin bottom */}
+                <div className="d-flex justify-content-center"> {/* Center the image within the column */}
+                  <a href={link.url} className="image-link">
+                    <Image
+                      src={link.image}
+                      alt={link.alt}
+                      width={400}
+                      height={300}
+                    />
+                  </a>
+                </div>
               </div>
             ))}
           </div>
