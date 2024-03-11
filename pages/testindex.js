@@ -110,12 +110,12 @@ export const getStaticProps = async () => {
 
 const imageLinks = [
   {
-    image: "/path/to/image1.jpg",
+    image: "/public/images/tradejup.png",
     url: "/https://jup.ag/swap/SOL-GOR_BG745juV1EHRUk2SxsuZ2JmCzDgeBVcUXioLSTDvhSpF",
     alt: "Jupiter"
   },
   {
-    image: "/path/to/image2.jpg",
+    image: "/public/images/orca.png",
     url: "https://v1.orca.so/liquidity/browse?tokenMint=BG745juV1EHRUk2SxsuZ2JmCzDgeBVcUXioLSTDvhSpF",
     alt: "Orca"
   }
