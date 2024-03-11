@@ -82,8 +82,8 @@ const Home = ({
                   <Image
                     src={link.image}
                     alt={link.alt}
-                    width={400}
-                    height={300}
+                    width={800}
+                    height={200}
                   />
                 </a>
               </div>
