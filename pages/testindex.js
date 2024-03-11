@@ -75,7 +75,7 @@ const Home = ({
       {/* Image links section */}
       <section className="section image-links">
         <div className="container">
-          <div className="row">
+          <div className="row" style={{ display: 'flex', justifyContent: 'space-between' }}>
             {imageLinks.map((link, index) => (
               <div className="col-md-6" key={index}>
                 <a href={link.url} className="image-link">
@@ -115,7 +115,7 @@ const imageLinks = [
     alt: "Jupiter"
   },
   {
-    image: "/images/orca.png",
+    image: "/images/liquidity.png",
     url: "https://v1.orca.so/liquidity/browse?tokenMint=BG745juV1EHRUk2SxsuZ2JmCzDgeBVcUXioLSTDvhSpF",
     alt: "Orca"
   }
