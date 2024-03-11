@@ -15,6 +15,7 @@ const Home = ({
   posts,
   featured_posts,
   categories,
+  imageLinks,
 }) => {
   // Define state
   const [currentIndex, setCurrentIndex] = useState(0);
