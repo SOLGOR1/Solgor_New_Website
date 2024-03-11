@@ -77,7 +77,7 @@ const Home = ({
         <div className="container">
           <div className="row" style={{ display: 'flex', justifyContent: 'space-between' }}>
             {imageLinks.map((link, index) => (
-              <div className="col-md-6" key={index}>
+              <div className="col-md-6" key={index}> {/* Make sure each column occupies half of the container's width on medium screens */}
                 <a href={link.url} className="image-link">
                   <Image
                     src={link.image}
