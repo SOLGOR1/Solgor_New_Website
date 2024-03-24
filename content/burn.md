@@ -12,9 +12,12 @@ Our first funding round to finance the Burn Mechanism and our inaugural gorilla 
 
 <Button href="#" type="solid">Mint</Button>
 
-We will launch a Solgor Avatar NFT Collection consisting of 6900 pieces at a mint price of 0.069 SOL. 
+We will launch a Solgor Avatar NFT Collection consisting of: 
+- 6900 pieces 
+- at a mint price of 0.069 SOL
+
 The Solana earned from this collection will fund the initial plans of the Solgor Community. 
-The more NFTs minted, the quicker we will adopt a gorilla and strengthen the Burn Mechanism, benefiting all $GOR holders.
+==The more NFTs minted, the quicker we will adopt a gorilla and strengthen the Burn Mechanism, benefiting all $GOR holders.==
 
 ---
 
