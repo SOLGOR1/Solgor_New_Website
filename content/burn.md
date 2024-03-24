@@ -49,8 +49,8 @@ Instead of simply burning all remaining proceeds, we will create two pools that 
 
 ### Pools:
 
-#### SOL/USDC
-- 1% Fee
+| #### SOL/USDC |
+| - 1% Fee |
 
 #### SOL/GOR
 - 1% Fee
