@@ -41,14 +41,14 @@ We've carefully crafted a sustainable Burn Mechanism, aiming for continuous burn
 Instead of simply burning all remaining proceeds, we will create two pools that generate revenue for consistent burning.
 
 ### Pools:
-<Notice type="#1 Pool">
+---
 #### SOL/USDC
 - 1% Fee
-</Notice>
-<Notice type="#2 Pool">
+---
+---
 #### SOL/GOR
 - 1% Fee
-</Notice>
+---
 These pools generate revenue from trades between Solana and USDC, and Solana and $GOR. 
 We will use these earnings to buy back GOR from the market every month, burning them to reduce the total supply and increase value for all token holders.
 
