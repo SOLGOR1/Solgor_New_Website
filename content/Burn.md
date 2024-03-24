@@ -1,5 +1,6 @@
 ---
 title: "Burn Mechanism Overview"
+draft: false
 ---
 
 # Burn Mechanism Overview
