@@ -23,7 +23,7 @@ The minting page on our website will go live on Friday. From 8:00 PM onwards, an
 
 1. **Prepare:** Get a Solana Wallet ([Phantom](https://phantom.app/), [Solflare](https://solflare.com/)).
 2. **Deposit:** Send Solana to your wallet.
-3. **Connect:** On our website, go to "Mint" and connect your wallet.
+3. **Connect:** On our website, go to ([Mint](https://solgor.app/) and connect your wallet.
 4. **Mint:** Choose the quantity and click on Mint.
 
 ## Gorilla Adoption Process
@@ -39,10 +39,10 @@ We've carefully crafted a sustainable Burn Mechanism, aiming for continuous burn
 Instead of simply burning all remaining proceeds, we will create two pools that generate revenue for consistent burning.
 
 ### Pools:
-
+<Notice type="info">
 #### SOL/USDC
 - 1% Fee
-
+</Notice>
 #### SOL/GOR
 - 1% Fee
 
