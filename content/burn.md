@@ -22,13 +22,13 @@ The more NFTs minted, the quicker we will adopt a gorilla and strengthen the Bur
 
 <Notice type="info">
 The minting page on our website will go live on Friday. From 8:00 PM onwards, anyone wishing to support Solgor can mint.
-</notice>
+</Notice>
 
 ### Steps:
 
 1. **Prepare:** Get a Solana Wallet ([Phantom](https://phantom.app/), [Solflare](https://solflare.com/)).
 2. **Deposit:** Send Solana to your wallet.
-3. **Connect:** On our website, go to ([Mint](https://solgor.app/) and connect your wallet.
+3. **Connect:** On our website, go to [Mint](https://solgor.app/) and connect your wallet.
 4. **Mint:** Choose the quantity and click on Mint.
 
 ---
