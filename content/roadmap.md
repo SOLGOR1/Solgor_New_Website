@@ -6,14 +6,12 @@ draft: false
 
 ### 2024
 
-<Accordion title="New Liquidity Pools">
+## New Liquidity Pools
 
 [x]GOR/SOL on ORCA
 [x]GOR/SOL on Raydium
 [] USDC/GOR on ORCA
 [] USDC/GOR on Raydium
-
-</Accordion>
 
 <Accordion title="Burn Mechanism">
 
