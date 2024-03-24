@@ -22,6 +22,10 @@
       "hasChildren": true,
       "children": [
         {
+          "name": "Burn",
+          "url": "/burn"
+        },
+        {
           "name": "Gorillameter",
           "url": "/gorillameter"
         },
