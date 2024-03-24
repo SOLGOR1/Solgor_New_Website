@@ -17,7 +17,7 @@ We will launch a Solgor Avatar NFT Collection consisting of:
 - at a mint price of 0.069 SOL
 
 The Solana earned from this collection will fund the initial plans of the Solgor Community. 
-==The more NFTs minted, the quicker we will adopt a gorilla and strengthen the Burn Mechanism, benefiting all $GOR holders.==
+###### The more NFTs minted, the quicker we will adopt a gorilla and strengthen the Burn Mechanism, benefiting all $GOR holders.
 
 ---
 
@@ -53,24 +53,25 @@ Instead of simply burning all remaining proceeds, we will create two pools that 
 ### Pools:
 <Tabs>
 
-<Tab name="Pool 1">
+<Tab name="SOL/USDC">
 
-#### SOL/USDC
+#### SOLANA <-> USDC
 1% Fee
 This pool generates revenue from trades between Solana and USDC
 </Tab>
 
-<Tab name="Pool 2">
+<Tab name="SOL/GOR">
 
-#### SOL/GOR
+#### SOLANA <-> SOLGOR
 1% Fee
 This pool generates revenue from trades between Solana and Solgor
 </Tab>
 
 </Tabs>
 
-These pools generate revenue from trades between Solana and USDC, and Solana and $GOR. 
-We will use these earnings to buy back GOR from the market every month, burning them to reduce the total supply and increase value for all token holders.
+These pools generate revenue from trades between Solana and USDC, and Solana and Solgor. 
+
+###### We will use these earnings to buy back GOR from the market every month, burning them to reduce the total supply and increase value for all token holders.
 
 ---
 
