@@ -47,10 +47,35 @@ The remaining proceeds will be used for the Burn Mechanism.
 We've carefully crafted a sustainable Burn Mechanism, aiming for continuous burning rather than a one-time event. 
 Instead of simply burning all remaining proceeds, we will create two pools that generate revenue for consistent burning.
 
+<Tabs>
+
+<Tab name="Pool 1">
+
+#### SOL/USDC
+1% Fee
+This pool generates revenue from trades between Solana and USDC
+</Tab>
+
+<Tab name="Pool 2">
+
+#### SOL/GOR
+1% Fee
+This pool generates revenue from trades between Solana and Solgor
+</Tab>
+
+<Tab name="Pool 3">
+
+#### GOR/HUNT
+1% Fee
+This pool generates revenue from trades between Solgor and Oinkhunta
+</Tab>
+
+</Tabs>
+
 ### Pools:
 
-| #### SOL/USDC |
-| - 1% Fee |
+#### SOL/USDC
+- 1% Fee 
 
 #### SOL/GOR
 - 1% Fee
@@ -74,8 +99,7 @@ If all NFTs are minted, we plan to introduce a third pool in partnership with Oi
 
 ---
 
-We extend a heartfelt thank you to all holders and supporters of the project. 
-Together, we can achieve even more!
+> We extend a heartfelt thank you to all holders and supporters of the project. Together, we can achieve even more!
 
 ---
 
