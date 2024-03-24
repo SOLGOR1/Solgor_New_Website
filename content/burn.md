@@ -55,7 +55,6 @@ Instead of simply burning all remaining proceeds, we will create two pools that 
 #### SOL/GOR
 - 1% Fee
 
----
 
 These pools generate revenue from trades between Solana and USDC, and Solana and $GOR. 
 We will use these earnings to buy back GOR from the market every month, burning them to reduce the total supply and increase value for all token holders.
