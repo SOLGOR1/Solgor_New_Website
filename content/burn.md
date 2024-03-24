@@ -59,12 +59,10 @@ In case of low volume or activity in the SOL/GOR pool, the SOL/USDC pool will en
 ## Future Plans
 
 If all NFTs are minted, we plan to introduce a third pool in partnership with Oinkhunter.
-
-### Pool:
-
+---
 #### GOR/HUNT
 - 1% Fee
-
+---
 We extend a heartfelt thank you to all holders and supporters of the project. 
 Together, we can achieve even more!
 
