@@ -47,6 +47,7 @@ The remaining proceeds will be used for the Burn Mechanism.
 We've carefully crafted a sustainable Burn Mechanism, aiming for continuous burning rather than a one-time event. 
 Instead of simply burning all remaining proceeds, we will create two pools that generate revenue for consistent burning.
 
+### Pools:
 <Tabs>
 
 <Tab name="Pool 1">
@@ -63,39 +64,39 @@ This pool generates revenue from trades between Solana and USDC
 This pool generates revenue from trades between Solana and Solgor
 </Tab>
 
-<Tab name="Pool 3">
-
-#### GOR/HUNT
-1% Fee
-This pool generates revenue from trades between Solgor and Oinkhunta
-</Tab>
-
 </Tabs>
-
-### Pools:
-
-#### SOL/USDC
-- 1% Fee 
-
-#### SOL/GOR
-- 1% Fee
-
 
 These pools generate revenue from trades between Solana and USDC, and Solana and $GOR. 
 We will use these earnings to buy back GOR from the market every month, burning them to reduce the total supply and increase value for all token holders.
 
-## Why Two Pools?
-
-In case of low volume or activity in the SOL/GOR pool, the SOL/USDC pool will ensure continuous burning.
-
 ---
 
-## Future Plans
+<Accordion title="Why Two Pools?">
+In case of low volume or activity in the SOL/GOR pool, the SOL/USDC pool will ensure continuous burning.
+</Accordion>
 
+<Accordion title="What if all NFTs get Minted?">
 If all NFTs are minted, we plan to introduce a third pool in partnership with Oinkhunter.
-
 #### GOR/HUNT
 - 1% Fee
+</Accordion>
+
+<Accordion title="Is purchasing GOR required for NFT minting?">
+No, minting will exclusively utilize Solana SOL.
+</Accordion>
+
+<Accordion title="What is the minting price?">
+The minting price is set at 0.069 SOL.
+</Accordion>
+
+<Accordion title="Is there a limit to the number of NFTs I can mint?">
+No, you can mint as many NFTs as desired.
+</Accordion>
+
+<Accordion title="When is the first burn scheduled?">
+The first burn event is slated for April 30, 2024.
+More Infos below in the Burn Statistics
+</Accordion>
 
 ---
 
