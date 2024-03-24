@@ -5,7 +5,8 @@ draft: false
 
 ## Funding
 
-Our first funding round to finance the Burn Mechanism and our inaugural gorilla adoption will commence on Friday, March 29, 2024, at 8:00 PM.
+Our first funding round to finance the Burn Mechanism and our inaugural gorilla adoption will commence on: 
+## Friday, March 29, 2024, at 8:00 PM.
 
 ![SOLGOR AVATARS](/images/SOLGOR_AVATARS.gif)
 
@@ -16,8 +17,9 @@ The Solana earned from this collection will fund the initial plans of the Solgor
 The more NFTs minted, the quicker we will adopt a gorilla and strengthen the Burn Mechanism, benefiting all $GOR holders.
 
 ## Mint Process
-
+<Notice type="info">
 The minting page on our website will go live on Friday. From 8:00 PM onwards, anyone wishing to support Solgor can mint.
+</notice>
 
 ### Steps:
 
@@ -39,13 +41,14 @@ We've carefully crafted a sustainable Burn Mechanism, aiming for continuous burn
 Instead of simply burning all remaining proceeds, we will create two pools that generate revenue for consistent burning.
 
 ### Pools:
-<Notice type="info">
+<Notice type="#1 Pool">
 #### SOL/USDC
 - 1% Fee
 </Notice>
+<Notice type="#2 Pool">
 #### SOL/GOR
 - 1% Fee
-
+</Notice>
 These pools generate revenue from trades between Solana and USDC, and Solana and $GOR. 
 We will use these earnings to buy back GOR from the market every month, burning them to reduce the total supply and increase value for all token holders.
 
