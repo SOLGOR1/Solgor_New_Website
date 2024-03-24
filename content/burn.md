@@ -55,14 +55,14 @@ Instead of simply burning all remaining proceeds, we will create two pools that 
 
 <Tab name="SOL/USDC">
 
-#### SOLANA <-> USDC
+#### SOLANA - USDC
 1% Fee
 This pool generates revenue from trades between Solana and USDC
 </Tab>
 
 <Tab name="SOL/GOR">
 
-#### SOLANA <-> SOLGOR
+#### SOLANA - SOLGOR
 1% Fee
 This pool generates revenue from trades between Solana and Solgor
 </Tab>
