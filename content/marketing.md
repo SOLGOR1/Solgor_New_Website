@@ -1,3 +1,8 @@
+---
+title: "Marketing Campaign"
+draft: false
+---
+
 # Community Announcement: Join Our NFT Funding Round Marketing Campaign!
 
 Dear Community,
