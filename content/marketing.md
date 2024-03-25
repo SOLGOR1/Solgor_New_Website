@@ -31,7 +31,7 @@ We believe that this approach not only incentivizes creativity and dedication bu
 
 We are confident that with your expertise and enthusiasm, we can make this marketing campaign a resounding success. 
 
-####Thank you for your ongoing support and commitment to our vision.
+#### Thank you for your ongoing support and commitment to our vision.
 
 <Notice type="note">
   Don't forget to add the Hashtag #SolgorNFT!
