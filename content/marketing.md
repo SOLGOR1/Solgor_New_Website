@@ -9,7 +9,7 @@ draft: false
 
 Dear Community,
 
-We are thrilled to announce our upcoming NFT funding round, which promises to be a game-changer in the world of digital assets. As we gear up for this exciting venture, we are reaching out to you, our talented community, to help us spread the word and make this initiative a resounding success.
+We are thrilled to announce our upcoming NFT funding round, which promises to be a game-changer for Solgor. As we gear up for this exciting venture, we are reaching out to you, our talented community, to help us spread the word and make this initiative a resounding success.
 
 Here's a brief overview of what we have in store: 
 - Our NFT funding round will feature a total of **6900** unique Solgor NFTs priced at **0.069 SOL** each.
