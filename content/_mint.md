@@ -1,10 +1,10 @@
 ---
 banner:
-  title: Welcome **!**
-  title_small: "to the Jungle"
-  content: Introducing Solgor GOR - Avatars!
+  title: Introducing Solgor **GOR**
+  title_small: "NFT Avatars"
+  content: Our first funding round to finance the Burn Mechanism and our inaugural gorilla adoption!
   image_enable: true
-  image: /images/SOLGOR_AVATARS.gif
+  image: /images/SOLGOR_AVATARS_BIG.gif
   button:
     enable: true
     label: Read More
