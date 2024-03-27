@@ -104,11 +104,18 @@ const Home = ({
       </section>
 
       {/* Script and HTML elements */}
-      <section className="section">
-        {/* This Counter */}
-        <div>This Counter: <div id="mint-button-container"/></div>
-        {/* Mint Button */}
-        <button id="mint-counter">MINT NOW</button>
+      <section className="section banner relative pb-0">
+        <div className="container">
+          <div className="row flex-wrap-reverse items-center justify-center lg:flex-row">
+            <div className="mt-12 text-center lg:mt-0 lg:text-left lg:col-6">
+              <div className="banner-title">
+                Mint Now
+              </div>
+              <div>This Counter: <div id="mint-button-container"/></div>
+              <button className="btn btn-primary mt-6" id="mint-counter">MINT NOW</button>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* Home main */}
