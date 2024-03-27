@@ -24,6 +24,7 @@ const Home = ({
   const sortPostByDate = sortByDate(posts);
   const featuredPosts = sortPostByDate.filter((post) => post.frontmatter.featured);
   const showPosts = pagination;
+  const [mintHtml, setMintHtml] = useState("");
 
   useEffect(() => {
     // Load external script asynchronously
