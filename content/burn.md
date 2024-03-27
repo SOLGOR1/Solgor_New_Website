@@ -9,6 +9,7 @@ Our first funding round to finance the Burn Mechanism and our inaugural gorilla 
 ## Friday, March 29, 2024, at 8:00 PM.
 
 ![SOLGOR AVATARS](/images/SOLGOR_AVATARS.gif)
+
 <Button href="https://www.launchmynft.io/collections/HtHgngcma1oYDiiBo7w7LswpcTSUDrgw7QvMsEhFnw9b/hNgE5uKGd9xaRNw93rk7" type="solid">Mint</Button>
 
 We will launch a Solgor Avatar NFT Collection consisting of: 
