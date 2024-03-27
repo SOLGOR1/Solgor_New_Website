@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import config from "@config/config.json";
 import Base from "@layouts/Baseof";
 import ImageFallback from "@layouts/components/ImageFallback";
@@ -23,6 +24,38 @@ const Home = ({
   const sortPostByDate = sortByDate(posts);
   const featuredPosts = sortPostByDate.filter((post) => post.frontmatter.featured);
   const showPosts = pagination;
+
+  useEffect(() => {
+    // Load external script asynchronously
+    const loadScript = async () => {
+      const script = document.createElement('script');
+      script.src = "https://storage.googleapis.com/scriptslmt/0.1.3/solana.js";
+      script.type = "module";
+      script.async = true;
+      document.body.appendChild(script);
+
+      // Load stylesheet asynchronously
+      const link = document.createElement('link');
+      link.href = "https://storage.googleapis.com/scriptslmt/0.1.3/solana.css";
+      link.rel = "stylesheet";
+      link.async = true;
+      document.head.appendChild(link);
+    };
+
+    loadScript();
+
+    // Clean up function to remove the script and link elements when component unmounts
+    return () => {
+      const script = document.querySelector('script[src="https://storage.googleapis.com/scriptslmt/0.1.3/solana.js"]');
+      const link = document.querySelector('link[href="https://storage.googleapis.com/scriptslmt/0.1.3/solana.css"]');
+      if (script) {
+        script.remove();
+      }
+      if (link) {
+        link.remove();
+      }
+    };
+  }, []); // Run only once on component mount
 
   return (
     <Base>
@@ -72,18 +105,9 @@ const Home = ({
 
       {/* Script and HTML elements */}
       <section className="section">
-        <script>
-          {`
-            window.ownerId = "HtHgngcma1oYDiiBo7w7LswpcTSUDrgw7QvMsEhFnw9b";
-            window.collectionId = "hNgE5uKGd9xaRNw93rk7";
-          `}
-        </script>
-        <script type="module" src="https://storage.googleapis.com/scriptslmt/0.1.3/solana.js"></script>
-        <link rel="stylesheet" href="https://storage.googleapis.com/scriptslmt/0.1.3/solana.css"/>
-        <div>
-          This Counter:
-          <div id="mint-button-container"/>
-        </div>
+        {/* This Counter */}
+        <div>This Counter: <div id="mint-button-container"/></div>
+        {/* Mint Button */}
         <button id="mint-counter">MINT NOW</button>
       </section>
 
