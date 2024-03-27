@@ -20,12 +20,12 @@ const Home = ({
   featured_posts,
   categories,
 }) => {
+  const [mintHtml, setMintHtml] = useState("");
   // Define state
   const sortPostByDate = sortByDate(posts);
   const featuredPosts = sortPostByDate.filter((post) => post.frontmatter.featured);
   const showPosts = pagination;
-  const [mintHtml, setMintHtml] = useState("");
-
+  
   useEffect(() => {
     // Load external script asynchronously
     const loadScript = async () => {
@@ -41,8 +41,8 @@ const Home = ({
       link.rel = "stylesheet";
       link.async = true;
       document.head.appendChild(link);
-    };
-          // Fetch and set HTML content
+
+      // Fetch and set HTML content
       fetch("/content/mint.html")
         .then(response => response.text())
         .then(html => setMintHtml(html))
