@@ -41,6 +41,12 @@ const Home = ({
       link.async = true;
       document.head.appendChild(link);
     };
+          // Fetch and set HTML content
+      fetch("/content/mint.html")
+        .then(response => response.text())
+        .then(html => setMintHtml(html))
+        .catch(error => console.error('Error fetching mint HTML:', error));
+    };
 
     loadScript();
 
@@ -103,21 +109,13 @@ const Home = ({
         </div>
       </section>
 
-      {/* Script and HTML elements */}
-      <section className="section banner relative pb-0">
-        <div className="container">
-          <div className="row flex-wrap-reverse items-center justify-center lg:flex-row">
-            <div className="mt-12 text-center lg:mt-0 lg:text-left lg:col-6">
-              <div className="banner-title">
-                Mint Now
-              </div>
-              <div>Counter: <div id="mint-counter"/></div>
-              <button className="btn btn-primary mt-6" id="mint-button-container">MINT NOW</button>
-            </div>
-          </div>
-        </div>
+      {/* Mint HTML content */}
+      <section className="section">
+        <div className="container" dangerouslySetInnerHTML={{ __html: mintHtml }} />
       </section>
-
+    </Base>
+  );
+};
       {/* Home main */}
      
     </Base>
