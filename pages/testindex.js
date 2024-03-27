@@ -80,30 +80,30 @@ const Home = ({
         </div>
       </section>
 
-      {/* Image links section */}
-      <section className="section image-links">
-        <div className="container">
-          <div className="row justify-content-center">
-            {imageLinks.map((link, index) => (
-              <div
-                className={`col-md-5 mb-4 ${index === currentIndex ? 'show' : 'hide'}`} // Apply classes based on current index
-                key={index}
-              >
-                <div className="d-flex justify-content-center">
-                  <a href={link.url} className="image-link">
-                    <Image
-                      src={link.image}
-                      alt={link.alt}
-                      width={400}
-                      height={300}
-                    />
-                  </a>
-                </div>
-              </div>
-            ))}
+{/* Extra container for images */}
+<section className="section extra-images">
+  <div className="container">
+    <div className="row justify-content-center">
+      {imageLinks.map((link, index) => (
+        <div
+          className={`col-md-5 mb-4 ${index === currentIndex ? 'show' : 'hide'}`} // Apply classes based on current index
+          key={index}
+        >
+          <div className="d-flex justify-content-center">
+            <a href={link.url} className="image-link">
+              <Image
+                src={link.image}
+                alt={link.alt}
+                width={400}
+                height={300}
+              />
+            </a>
           </div>
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* Home main */}
      
