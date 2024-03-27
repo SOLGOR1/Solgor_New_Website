@@ -116,11 +116,6 @@ const Home = ({
     </Base>
   );
 };
-      {/* Home main */}
-     
-    </Base>
-  );
-};
 
 export default Home;
 
