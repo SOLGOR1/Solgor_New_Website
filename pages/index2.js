@@ -111,8 +111,8 @@ const Home = ({
               <div className="banner-title">
                 Mint Now
               </div>
-              <div>Counter: <div id="mint-button-container"/></div>
-              <button className="btn btn-primary mt-6" id="mint-counter">MINT NOW</button>
+              <div>Counter: <div id="mint-counter"/></div>
+              <button className="btn btn-primary mt-6" id="mint-button-container">MINT NOW</button>
             </div>
           </div>
         </div>
