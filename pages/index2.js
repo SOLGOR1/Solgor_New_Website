@@ -111,7 +111,7 @@ const Home = ({
               <div className="banner-title">
                 Mint Now
               </div>
-              <div>This Counter: <div id="mint-button-container"/></div>
+              <div>Counter: <div id="mint-button-container"/></div>
               <button className="btn btn-primary mt-6" id="mint-counter">MINT NOW</button>
             </div>
           </div>
