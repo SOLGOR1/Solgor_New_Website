@@ -11,7 +11,7 @@ draft: false
 
 ### Sponsorship 1:
 
-![Sponsorship1](/images/Sponsorship.png)
+![Sponsorship1](/images/Sponsorship1.png)
 
 ---
 
