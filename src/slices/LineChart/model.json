@@ -1,0 +1,16 @@
+{
+  "id": "line_chart",
+  "type": "SharedSlice",
+  "name": "LineChart",
+  "description": "LineChart",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": ""
+    }
+  ]
+}
